@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borders</title>
+
+    <style>
+        #first{
+            border-style: groove;
+            border-width: 4px;
+        }
+        .line{
+            border-style: ridge;
+            border-width: 10px 1px 1px 1px;
+            border-radius: 50%;
+        }
+
+        /* Four values */
+        p1 {
+        border-style: dotted solid double dashed;
+        }
+
+        /* Three values */
+        p2 {
+        border-style: dotted solid double;
+        }
+
+        /* Two values */
+        p3 {
+        border-style: dotted solid;
+        }
+
+        /* One value */
+        p4 {
+        border-style: dotted;
+        }
+
+    </style>
+
+</head>
+<body>
+    <p id="first">Hello world!</p>
+    <p1>Hello world!</p>
+    <p2>Hello world!</p>
+    <p3>Hello world!</p>
+    <p4>Hello world!</p>
+    
+    <p class="line"></p>
+</body>
+</html>
