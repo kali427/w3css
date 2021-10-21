@@ -7,6 +7,11 @@
     <title>Borders</title>
 
     <style>
+        body *{
+            display: block;
+            margin-top: 20px;
+            padding: 10px;
+        }
         #first{
             border-style: groove;
             border-width: 4px;
@@ -36,16 +41,25 @@
         p4 {
         border-style: dotted;
         }
+        left {
+        border-style: hidden hidden hidden solid;
+        border-left: 10px solid red;
+        background-color: lightgrey;
+        display: block;
+        padding: 15px;
+        border-radius: 10px;
+        }
 
     </style>
 
 </head>
 <body>
     <p id="first">Hello world!</p>
-    <p1>Hello world!</p>
-    <p2>Hello world!</p>
-    <p3>Hello world!</p>
-    <p4>Hello world!</p>
+    <p1>Hello world!</p1>
+    <p2>Hello world!</p2>
+    <p3>Hello world!</p3>
+    <p4>Hello world!</p4>
+    <left>Hello World!</left>
     
     <p class="line"></p>
 </body>
