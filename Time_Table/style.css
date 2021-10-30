@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+th{
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px;
+}
+.zero{
+    margin: 0px;
+    padding: 0px;
+}
+.pa{
+    top: 49%;
+    left: 13.5%;
+
+    transform: rotate(90deg);
+
+}
+div{
+    margin-top: 20px;
+    height: 45px;
+}
+#asm p{
+    margin-top: 41px;
+}
+.par{
+
+    position: absolute;
+    top: 49%;
+    left: 55.6%;
+
+    transform: rotate(90deg);
+
+}
+img{
+    background-color: rgb(6, 102, 150);
+}
